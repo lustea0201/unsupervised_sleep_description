@@ -1,0 +1,189 @@
+- m00019 (): 88.2%, 94.1%, 75.0% -> 84.5% # HARD TO ANNOTATE (PAINFUL EYES -> CLOSED, INACTIVE =fragmented sleep)
+-> give up this patient (won't be happy with ground truth anyways). 
+
+SETTINGS: use all electrodes, bandpowers_n. Smoothing improves accuracy!
+
+- m00023: 44.8% failed (short sleep and fragmented, but still an unacceptable fail) & 95.7% worked!
+44.8%, 95.7% -> 67.3%
+-> fragmented sleep and seizures make it hard, and hard to annotate. Doesn't explain why one works and not other. 
+See if non-linearity can fix first folder, otherwise ignore this one (perf will still be unconvincing since
+hard to label)
+
+REMOVED FIRST FOLDER; (fragmented sleep, no delta pattern). 
+COuld improve separation in cluster from other folder by deleting 3 problematic electrodes. 
+-> works in that second folder. 
+
+Settings: remove_bad_electrodes, definitely NEED relative bandpower. Also works if don't remove_bad electrodes; makes one folder better separated and the other worse.
+Smooth but changes nothing. All_together fails.
+
+
+- m00026: 100%. 
+-> WORKS
+
+SETTINGS: remove_bad_electrodes=True(fine otherwise too), NEED relative, 
+
+- m00030: ? Probably well! MISSING EC9!, DOWNLOAD!!! RPOBLEM LOADING ??
+TODO: CHECK if delat/theta can save the plotting situation!!
+84.2% (kinda lucky! doesn't get the ende right... see if adding delta/theta helps!!!!!!!!!!!)
+84.2%, 100% ->93%
+->Works mostly, especially for second folder... 
+
+SHOW this one because impresively works EVEN THOUGH no clear human visible delta pattern indicates it.
+SETTINGS: drop_bad, NOT relative is better, all_together fails. Keep smoothing but doesn't change accuracy.
+ 
+
+- m00032: 89.5%, 91.5%, 100% -> 92.7% (Only mistake is me, probably hadn't fallen asleep yet))
+-> WORKS
+
+SETTINGS: THIS ONE WORKS WELL IF KEEP ALL DATA; NOT FOLDERS SEPARATELY! Rel_n gives more separated, but worse performance... Go with that still!!
+Smoothing not necessary but done.
+
+
+- m00035: 80.3%. 
+NOTE: there is a 3rd, obvious cluster. All the mistakes are awake -> classified as asleep.
+Maybe this is like an "eyes closed" state ??? 
+Have to do some of the clustering "manually"
+
+Settings: better with bandpowers_n, kind of same so drop_bad. Smooth changes nothing so do it.
+
+
+
+
+
+- m00039:
+90% + 93.1% -> 91% :) used to not work so this is great!! Definitely 
+Settings: need relative! and drop_bad, smooth not playing a big role. 
+
+
+
+- m00043:
+88.2, 88.9, 95.6, 71.4  -> ROUGHLY 89.4%... DO MISSING!!
+
+Settings: need relative. Simpler if don't remove bad_electrodes.Smoothing worsened performance by 4%, but I want to stick to my principles. 
+
+
+
+- m00044:
+OK, this one actually fails miserably no matter what I do. Even if drop gamma. $
+49.3, 83.3 -> 64.4%
+
+
+- m00049:
+Seems to also fail. HYPOTHESIS: recordings too long, split into 3 to make it work!!
+83.6, 94.3 -> 88.7%
+SETTINGS: really helps to not smooth... gained 10% accuracy so fuck it. 
+
+- m00079:
+Fine I guess, maybe annotations weren't perfect. 
+SETTINGS: need relative. Better if keep bad electrodes. Smoothed but didn't change anything. 
+
+
+- m00083:
+92.9%
+Settings: need relative! Doesn't matter if keep or drop bad. I smoothed but no change. 
+
+
+- m00084:
+88.9%, 95.5% -> 92.5%.
+
+Smoothing worsened performance by 5%, but I want to stick to my principles.
+
+
+WORKS! although had some doubts on some labels... happy with result.
+
+
+
+
+- m10000: 98.1, 98.1, 100 -> 98.4%! :) 
+Settings: remove_bad helps, relative is def better. Smoothing worsens a tiny bit but who cares. 
+
+
+(- m10001)
+(- m10002) 
+- m10003: 98.1, 100, 90.1->94.2%
+Note: Could consider trimming 5eae... ut doesn't affect accuracy. 
+Settings:  rel_n or bandpowers_n work. Don't need to remove bad. 
+
+
+- m00100: 100%!
+Settings: remove bad, need rel_n, 
+
+- m00097: 93.8%
+Settings: should split first very long file in 2, better with relative,  removed bad
+
+- m00096: 98.5%
+Settings: split in 3, works better with bandpowers_n. Removed bad
+
+
+- m00095: 91.0%
+Settings: split in 4, rel,
+Seems like it worked perfectly, but since used kmeans and clusters not obvious, I'll have to give medium confidence only.
+
+- m00075: 90.9%
+Need rel_n. Smoothing improves a bit 
+
+- m00073: 98.3%
+smoothing improves by 3-5%...
+
+- m00071: 94.9%
+Smoothing improves by 6%...
+First folder: couldn't annotate. 
+Settings: Rel_n
+
+- m00068: 98.2%
+Settings: best if keep some really bad electrodes. Either norm works. Didnt need to split long recording.
+
+- m00061: 79.2%, 90.9% -> 84.8%
+Settings: don't remove, use bp
+Removed folder dcde because no video. 
+
+- m00060: 89%
+Settings: need to split a lot, and cropped a bit more to make it work better. 
+Did not smooth. 
+
+
+- m00059: 60, 89.5, 53.8, 83.3, 93.3->77.9%
+
+Settings: bandpowers_n better than rel for this one.
+
+- m00058: 
+Settings: dont know, fails
+
+- m00056: NO VIDEO
+
+- m00055: 93.3%
+Smoothed. Relative. 
+
+- m00053:
+
+- m00052: 70.3, 91.4 -> 81.3%
+Not sure. SUPER HARD TO ANNOTATE (2 yo)
+
+- m00048: 91.9%
+Had to use bandpowers.
+
+- m00047: 90.8%
+didnt work so well, split in 2 and
+
+- m00038: 95.7, 81.8 -> 87.5%
+should remove first folder because no sleep ??
+Doesn't work too well in general. 
+
+- m00037: 96%. 
+Deleted two folders because bad quality video, few periods of long sleep. 
+Had to use bandpowers.
+
+
+- m00033: 
+ABSOLUTELY SHOULD REMOVE BAD! really many severe artifacts here. 
+
+
+- m00024: -> 64.7, 79.2, 57.4, 77.3, 79.2% -> 69.4%
+kept the bad because prefer that plot electrode but not sure!
+
+- m00006: fails
+
+- m00001: fails
+
+
+

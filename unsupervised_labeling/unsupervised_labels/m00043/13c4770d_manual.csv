@@ -1,0 +1,16 @@
+time,Manual
+2009-10-15 16:00:07,0
+2009-10-15 17:00:07,0
+2009-10-15 18:00:07,0
+2009-10-15 19:00:07,0
+2009-10-15 20:00:07,0
+2009-10-15 21:00:07,0
+2009-10-15 22:00:07,0
+2009-10-15 23:00:07,0
+2009-10-16 00:00:07,1#Going to fall asleep soon though!
+2009-10-16 01:00:07,1#Could have been woken up at that exact time
+2009-10-16 02:00:07,0#Again, sleeping but woken up just before
+2009-10-16 03:00:07,0#Most likely struggling to sleep
+2009-10-16 04:00:07,1
+2009-10-16 05:00:07,1
+#Never sleeping uninterrupted for hours. IDEA: eliminate from data justifying that don't have continuous (6+ hours) of sleep!

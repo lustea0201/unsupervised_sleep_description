@@ -1,0 +1,182 @@
+{
+	"m00019":
+	{
+		"bd1634f5": "medium",
+		"dad188ce": "medium",
+		"f7005105": "medium"
+	},
+	"m00023":
+	{
+		"a78cfb01": "low",
+		"eb01ea39": "high"
+	},
+	"m00026":
+	{
+		"d6bf280e": "high"
+	},
+	"m00030":
+	{
+		"5b39ef05": "medium",
+		"0a9d761f": "medium"
+	},
+	"m00032":
+	{
+		"af485821": "high",
+		"72487c77": "high",
+		"1de16f68": "high"
+	},
+	"m00035":
+	{
+		"598a31c2": "medium"
+	},
+	"m00039":
+	{
+		"d7f64237": "high",
+		"0a403524": "high"
+	},
+	"m00043":
+	{
+		"22ca4eb9": "medium",
+		"5d898fa9": "medium",
+		"4ce6814b": "high",
+		"13c4770d": "medium"
+	},
+	"m00044":
+	{
+		"757e63c2": "fail",
+		"da311236": "low"
+	},
+	"m00049":
+	{
+		"0f3a4876": "medium",
+		"29bcc7e6": "high"
+	},
+	"m00079":
+	{
+		"e9a25439": "high"
+	},
+	"m00083":
+	{
+		"d3ab4e12": "high"
+	},
+	"m00084":
+	{
+		"cd853892": "high",
+		"501329d1": "high"
+	},
+	"m10000":
+	{
+		"9524c05d": "high",
+		"c0c008d4": "high",
+		"d34f0649": "high"
+	},
+	"m10003":
+	{
+		"504d40fc": "high",
+		"5eae004e": "high",
+		"bec2ba47": "high"
+	},
+	"m00100":
+	{
+		"79ba6df8": "high"
+	},
+	"m00097":
+	{
+		"fa0a1b50": "high"
+	},
+	"m00096":
+	{
+		"b1f7a52f": "high"
+	},
+	"m00095":
+	{
+		"e9003395": "medium"
+	},
+	"m00075":
+	{
+		"d4010703": "medium"
+	},
+	"m00073":
+	{
+		"129df1dd": "high"
+	},
+	"m00071":
+	{
+		"cf9b32ff": "high"
+	},
+	"m00068":
+	{
+		"7ae73508": "high"
+	},
+	"m00061":
+	{
+		"dd69e165": "low",
+		"c5036be4": "medium"
+	},
+	"m00060":
+	{
+		"aec57c8b": "medium"
+	},
+	"m00059":
+	{
+		"b8c45c61": "fail",
+		"461d4e3b": "medium",
+		"370cdc75": "fail",
+		"707115b3": "medium",
+		"38e82636": "medium"
+	},
+	"m00058":
+	{
+		"a34004c3": "high",
+		"eb1c64e7": "medium",
+		"40055cc3": "medium",
+		"0d7082f3": "medium",
+		"c01aa3b1": "high",
+		"8a63d5e4": "low",
+		"4a5e86a1": "low"
+	},
+	"m00055":
+	{
+		"614efbdb": "high"
+	},
+	"m00053":
+	{
+		"ed61bb2d": "high",
+		"8c823635": "medium"
+	},
+	"m00052":
+	{
+		"b67360ee": "low",
+		"ec7eaf2b": "low"
+	},
+	"m00048":
+	{
+		"eb85dfc1": "medium"
+	},
+	"m00047":
+	{
+		"a289baf2": "low"
+	},
+	"m00038":
+	{
+		"7db0c189": "high",
+		"ae3a27f3": "low"
+	},
+	"m00037":
+	{
+		"f1b5f8d4": "high"
+	},
+	"m00024":
+	{
+		"0c0e8ec": "fail",
+		"81ddc8b6": "fail",
+		"31d5a031": "fail",
+		"302ede27": "fail",
+		"dc694dea": "fail"
+	},
+	"m00045":
+	{
+		"be5a18ad": "medium",
+		"98033c5f": "high"
+	}
+}
